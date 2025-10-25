@@ -1,0 +1,59 @@
+General Store Management System
+
+Project Overview
+The General Store Management System is a console-based C++ application designed to automate billing, display product details, and handle payments for a retail store. 
+It provides a clean, user-friendly interface for managing purchases, calculating discounts, and generating bills in real-time.
+This project simulates a beverage store management system where customers can select items, calculate total amounts with applicable discounts, and complete payments efficiently.
+
+Features:
+Product Menu Display: Lists all available items with code, name, price, and discount eligibility.
+Billing System: Automatically calculates total price, applies discounts, and generates a detailed bill.
+Discount Handling: "Buy 5 or more, get 10% off" discount on selected products.
+Payment Processing: Accepts multiple cash payments and displays balance if overpaid.
+Time & Author Info: Displays current date and time along with project author details.
+User-Friendly Navigation: Menu-driven interface with options to view menu, generate bills, or exit.
+
+Technologies Used:
+Language: C++
+Compiler: Dev-C++ (or any standard C++ compiler)
+Libraries:
+
+<iostream> for input/output operations
+<ctime> for date and time display
+<vector> for dynamic product storage
+<string> for handling product names
+
+Installation and Usage
+Clone the repository or download the source code:
+git clone https://github.com/lokesh209601/general-store-management.git
+
+
+Open the project in Dev-C++ or any C++ IDE.
+Compile and run the program.
+
+Follow the on-screen menu:
+
+Press M to view product menu.
+
+Press B to start billing.
+
+Press E to exit the program.
+
+Product Details
+Code	Product Name	Price (Rs.)	Discount
+1	Apple	120	No
+2	Orange	100	Yes
+3	Mango	90	Yes
+4	Grapes	130	No
+5	Avocado	140	Yes
+
+Note: A discount of 10% is applied for purchases of 5 or more units of eligible items.
+
+Authors
+
+Lokesh Mishra – GitHub
+Harshvardhan Chaudhary – GitHub
+
+License
+
+This project is open-source and free to use for educational purposes.
